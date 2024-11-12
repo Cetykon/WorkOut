@@ -11,13 +11,9 @@ import jakarta.persistence.Id;
 public class Exercises {
 	
 	private Long id;
-	private String workout;
-	private String reps;
-	private String sets;
-	private String weight;
-	private String lastupdate;
-	private String setday;
+	private String exercise;
 	private String image;
+	private String type;
 
 	public Exercises() {
 		
@@ -35,56 +31,14 @@ public class Exercises {
 		this.id = id;
 	}
 
-	public String getWorkout() {
-		return workout;
+	public String getExercise() {
+		return exercise;
 	}
 
-	public void setWorkout(String workout) {
-		this.workout = workout;
+	public void setExercise(String exercise) {
+		this.exercise = exercise;
 	}
 
-	public String getReps() {
-		return reps;
-	}
-
-	public void setReps(String reps) {
-		this.reps = reps;
-	}
-
-	public String getSets() {
-		return sets;
-	}
-
-	public void setSets(String sets) {
-		this.sets = sets;
-	}
-
-	public String getWeight() {
-		return weight;
-	}
-
-	public void setWeight(String weight) {
-		this.weight = weight;
-	}
-
-
-
-	public String getSetday() {
-		return setday;
-	}
-
-	public void setSetday(String setday) {
-		this.setday = setday;
-	}
-
-	public String getLastupdate() {
-		return lastupdate;
-	}
-
-	public void setLastupdate(String lastupdate) {
-		this.lastupdate = lastupdate;
-	}
-	
 	public String getImage() {
 		return image;
 	}
@@ -93,9 +47,12 @@ public class Exercises {
 		this.image = image;
 	}
 
+	public String getType() {
+		return type;
+	}
 
-
-	
-	
+	public void setType(String type) {
+		this.type = type;
+	}
 
 }
