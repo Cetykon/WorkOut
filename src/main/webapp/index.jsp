@@ -21,8 +21,11 @@
 	<%}else if(view.equals("exercises")){ %>
 	<%@include file=".\includes\workoutList.jsp" %>
 	
-	<%}else if(view.equals("costumWorkout")){ %>
+	<%}else if(view.equals("costumExercise")){ %>
 	<%@include file=".\includes\costumExercise.jsp" %>
+	
+	<%}else if(view.equals("logout")){ %>
+	<%@include file=".\includes\logout.jsp" %>
 	
 	<%}else{%>
 	<%@include file=".\includes\startingPage.jsp" %> 
