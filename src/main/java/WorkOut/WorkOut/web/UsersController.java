@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import WorkOut.WorkOut.Repository.UsersRepository;
 import WorkOut.WorkOut.domain.Users;
-import WorkOut.WorkOut.domain.UsersRepository;
 
 @RestController
 @RequestMapping("webapi/users")

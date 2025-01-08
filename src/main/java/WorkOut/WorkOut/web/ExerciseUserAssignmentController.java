@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import WorkOut.WorkOut.Repository.ExerciseUserAssignmentRepository;
 import WorkOut.WorkOut.domain.ExerciseUserAssignment;
-import WorkOut.WorkOut.domain.ExerciseUserAssignmentRepository;
 
 @RestController
 @RequestMapping("webapi/userexcercise")

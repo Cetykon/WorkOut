@@ -29,7 +29,9 @@ function login(){
 		
 		if(response.password == password){
 			
-			window.location="./client.html";
+			//window.location="./client.html";
+			window.location="./index.jsp";
+			
 		}else{
 			
 			$("#message").text("login unsuccessful");

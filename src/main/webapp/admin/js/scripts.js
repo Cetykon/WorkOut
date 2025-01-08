@@ -57,8 +57,44 @@ window.addEventListener('DOMContentLoaded', event => {
 $(document).ready(function(){
 
 	getExercises();
+	/*fetchAndExtractWorkouts();*/
 	
 });
+
+/*// Function to fetch data from the API and extract workouts
+async function fetchAndExtractWorkouts() {
+    $.ajax({
+	    url: "http://localhost:8080/MyOwnSpringJPA/api/mongodbusers",
+	    type: 'GET',
+	    dataType: "json",
+	    contentType: "application/json"
+	}).fail(function(response) {
+	    console.error("API call failed:", JSON.stringify(response));
+	}).done(function(response) {
+	    const workouts = [];
+	
+	    // Iterate over the API response
+	    $.each(response, function(index, user) {
+	        if (user.weeklyPlans) {
+	            $.each(user.weeklyPlans, function(_, plan) {
+	                if (plan.workouts) {
+	                    $.each(plan.workouts, function(_, workout) {
+	                        workouts.push({
+	                            day: workout.day,
+	                            exercises: workout.exercises
+	                        });
+	                    });
+	                }
+	            });
+	        }
+	    });
+	
+	    // Log the extracted workouts
+	    console.log("Extracted Workouts:", workouts);
+	});
+
+}*/
+
 
 //Client side API call using AJAX
 function getExercises(){
