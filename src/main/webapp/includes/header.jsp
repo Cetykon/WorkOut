@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Work Out Tracker</title>
+        <title>Workout Tracker</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version) -->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -23,7 +23,7 @@
         <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Work Out Tracker</a>
+                <a class="navbar-brand" href="#page-top">Workout Tracker</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-bars"></i>
                 </button>
@@ -32,8 +32,8 @@
                         <li class="nav-item"><a class="nav-link" href="./index.jsp?view=StartPage">StartPage</a></li>
                         <li class="nav-item"><a class="nav-link" href="./index.jsp?view=weeks">Week Plan</a></li>
                         <li class="nav-item"><a class="nav-link" href="./index.jsp?view=Search">Search</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./index.jsp?view=exercises">List of Work Outs</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./index.jsp?view=costumExercise">Add Work Out</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.jsp?view=exercises">List of Workouts</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.jsp?view=costumExercise">Add Workout</a></li>
                         <li class="nav-item"><a class="nav-link" href="./index.jsp?view=logout">Log Out</a></li>
                     </ul>
                 </div>
